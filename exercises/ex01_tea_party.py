@@ -29,8 +29,8 @@ def tea_bags(people: int) -> int:
 # based on the number of tea
 def treats(people: int) -> int:
     """This defines 'treats' as 1.5 * the number of tea bags"""
-    # this has to return the input of tea bag as an int
-    return int(tea_bags(people) * 1.5)
+    # this has to return the input of tea bag as an int. it needs a keyword argument
+    return int(tea_bags(people=people) * 1.5)
 
 
 # need a function to assign cost to the functions, and to sum cost
