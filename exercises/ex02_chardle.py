@@ -4,7 +4,7 @@ __author__ = "730391230"
 
 
 # this calls the other functions in the order i want so its not annoying
-def main():
+def main() -> None:
     contains_char(word=input_word(), letter=input_letter())
 
 
