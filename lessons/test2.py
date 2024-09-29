@@ -1,5 +1,4 @@
-def total_cost(price: int, tax_rate: float):
-    return price + (price * tax_rate)
+from lessons.test import double, double_display
 
-
-print(total_cost(price=100, tax_rate=0.07))
+print(double(1))
+double_display(4)
